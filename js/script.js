@@ -11,14 +11,7 @@ $(document).ready(function(){
   $('.buttonAdd').click(function(){
     var value = $('input').val();
     createElement(value);
-
   });
-
-
-
-
-
-
 });
 // FUNZIONE CHE LEGGE TUTTA LA LISTA
 function readList(data){
@@ -83,5 +76,4 @@ function createElement(todoValue) {
         alert("E' avvenuto un errore. " + errore);
       }
     });
-
 }

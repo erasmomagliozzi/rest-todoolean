@@ -1,7 +1,7 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 .element{
   background-color: red;
@@ -14,4 +14,8 @@
 }
 .button{
   width: 30px;
+  border-radius: 100%;
+}
+.input{
+  margin: 20px;
 }

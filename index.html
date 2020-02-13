@@ -10,6 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
   </head>
   <body>
+    <input type="text" name="" value="">
+    <button type="button" class="buttonAdd">Aggiungi</button>
     <ul class="list">
 
 
@@ -19,8 +21,8 @@
 
 
     <script id="entry-template" type="text/x-handlebars-template">
-      <div class="element">
-        <li>{{text}}</li>
+      <div class="element" data-id="{{id}}">
+        <li >{{text}}</li>
         <button type="button" class="button">X</button>
 
       </div>
